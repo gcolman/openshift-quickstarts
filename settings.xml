@@ -48,6 +48,20 @@
     <profile>
       <id>jboss-ga-repository</id>
       <repositories>
+          
+	    <repository>
+          <id>openshift.local</id>
+          <name>openshift.local</name>
+          <url>http://10.1.2.1:8081/nexus/content/groups/public/</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </repository>          
+          
         <repository>
           <id>jboss-ga-repository</id>
           <url>http://maven.repository.redhat.com/techpreview/all</url>
@@ -76,6 +90,20 @@
     <profile>
       <id>jboss-earlyaccess-repository</id>
       <repositories>
+          
+	    <repository>
+          <id>openshift.local</id>
+          <name>openshift.local</name>
+          <url>http://10.1.2.1:8081/nexus/content/groups/public/</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </repository>           
+          
         <repository>
           <id>jboss-earlyaccess-repository</id>
           <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
